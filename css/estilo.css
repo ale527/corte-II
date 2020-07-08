@@ -1,0 +1,67 @@
+.margen{
+    margin-left:  10px;
+    margin-right: 10px;
+}
+.margen-text{
+    margin-left:  10px;
+    margin-right: 10px;
+    text-indent: 40px;
+}
+.margen-text1{
+    margin-left:  10px;
+    margin-right: 10px;
+}
+.card{
+    max-width: auto;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+.card1{
+    display: flex;
+}
+.p{
+    margin-left:50px;
+}
+#pie{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    line-height: 50px;
+    display: flex;
+    background-color: black;
+    }
+    .social {
+        position: fixed; 
+        left: 0; 
+        top: 200px; 
+        z-index: 2000; 
+    }
+     
+        .social ul {
+            list-style: none;
+        }
+     
+        .social ul li a {
+            display: inline-block;
+            color:#fff;
+            background: rgb(211, 208, 208);
+            padding: 10px 14px;
+            text-decoration: none;
+            -webkit-transition:all 500ms ease;
+            -o-transition:all 500ms ease;
+            transition:all 500ms ease; 
+        }
+     
+        .social ul li .fa-facebook-square {background:#3b5998;} 
+        .social ul li .fa-twitter-square {background: #00abf0;}
+        .social ul li .fa-google {background: #d95232;}
+        .social ul li .fa-pinterest {background: #ae181f;}
+        
+     
+        .social ul li a:hover {
+            background: rgb(7, 7, 7); 
+            padding: 10px 30px; 
